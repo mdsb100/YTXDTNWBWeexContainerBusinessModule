@@ -22,7 +22,7 @@ YTXDTNWBWeexContainerBusinessModule
 Weex若业务组件的容器，初始化和提供容器。
                        DESC
 
-  s.homepage         = "http://gitlab.yintech.net/ytx/DynamicTeam/NewBee/iOS/YTXDTNWBWeexContainerBusinessModule"
+  s.homepage         = "https://github.com/mdsb100/YTXDTNWBWeexContainerBusinessModule"
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'caojun' => '78612846@qq.com' }
@@ -31,7 +31,7 @@ Weex若业务组件的容器，初始化和提供容器。
 
   s.ios.deployment_target = '9.0'
 
-  s.source           = { :git => "http://gitlab.yintech.net/ytx/DynamicTeam/NewBee/iOS/#{s.name}.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/mdsb100/YTXDTNWBWeexContainerBusinessModule.git", :tag => s.version.to_s }
 
 
   s.source_files = 'YTXDTNWBWeexContainerBusinessModule/Classes/**/*'

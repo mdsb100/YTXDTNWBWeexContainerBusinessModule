@@ -1,0 +1,12 @@
+
+{
+  "iOS_weex_prerender_config": {
+    "is_switch_on": true,
+    "cacheTime": 300000,
+    "max_cache_num": 2,
+    "urls": [
+      
+    ]
+  }
+  
+}

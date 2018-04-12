@@ -1,0 +1,29 @@
+{
+    "domains": {
+        "test": {
+            "assets": "http://assets.api-zq-dev.baidao.com",
+        },
+        "production": {
+            "assets": "https://assets.sinagp.com",
+        }
+    },
+    "service": {
+        "assets": {
+            "check": {
+                "domain": "assets",
+                "path": "/api/patchs/check",
+                "method": "GET"
+            },
+            "startDownload": {
+                "domain": "assets",
+                "path": "/api/statistics/patchs",
+                "method": "POST"
+            },
+            "downloadStatus": {
+                "domain": "assets",
+                "path": "/api/statistics/patchs/:id",
+                "method": "PATCH"
+            },
+        },
+    }
+}

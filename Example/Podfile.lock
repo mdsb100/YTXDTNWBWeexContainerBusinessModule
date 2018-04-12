@@ -1,0 +1,57 @@
+PODS:
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - Kingfisher (4.7.0)
+  - Mantle (1.5.8):
+    - Mantle/extobjc (= 1.5.8)
+  - Mantle/extobjc (1.5.8)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SSZipArchive (2.1.2)
+  - WeexSDK (0.18.0)
+  - YTXDTNWBWeexContainerBusinessModule (0.1.11):
+    - Kingfisher (~> 4.0)
+    - Mantle (~> 1.5)
+    - ReactiveCocoa (~> 2.5)
+    - SSZipArchive (~> 2.1)
+    - WeexSDK (~> 0.17)
+    - YTXModule (~> 1.2)
+  - YTXModule (1.2.5)
+
+DEPENDENCIES:
+  - FMDB
+  - YTXDTNWBWeexContainerBusinessModule (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FMDB
+    - Kingfisher
+    - Mantle
+    - ReactiveCocoa
+    - SSZipArchive
+    - WeexSDK
+    - YTXModule
+
+EXTERNAL SOURCES:
+  YTXDTNWBWeexContainerBusinessModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  Kingfisher: da6b005aa96d37698e3e4f1ccfe96a5b9bbf27d6
+  Mantle: f03b2b606c3f0cabd80214ad8a2fed6b464a7359
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SSZipArchive: d4009d2ce5520a421f231fd97028cc0e2667eed8
+  WeexSDK: ac56f255ce9a48e93ebc2e003956ab20da33321d
+  YTXDTNWBWeexContainerBusinessModule: 1ec5b4275f4654f5a49b7139c4c7cb293b0a85ca
+  YTXModule: e602798b06905dc1c50001bca4ec85ab897a178e
+
+PODFILE CHECKSUM: def32f6919f9e24faa1be34a8d3ca2fe0c949376
+
+COCOAPODS: 1.5.0

@@ -17,7 +17,6 @@ post_install do |installer|
     installer.pods_project.targets.each do |target|
         target.build_configurations.each do |config|
             config.build_settings['ENABLE_BITCODE'] = 'NO'
-            target.build_settings(config.name)['CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES'] = 'YES'
             if target.name != "YTXDTNWBWeexContainerBusinessModule" || target.name != "YTXDTNWBWeexContainerBusinessModuleAppExample" then
                 config.build_settings['GCC_WARN_INHIBIT_ALL_WARNINGS'] = 'YES'
             end

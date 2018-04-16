@@ -45,7 +45,7 @@ Weex若业务组件的容器，初始化和提供容器。
   s.dependency 'Mantle', '~> 1.5'
   s.dependency 'SSZipArchive', '~> 2.1'
   
-  s.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1', 'ENABLE_BITCODE' => 'NO', 'SWIFT_VERSION' => '3.2' }
+  s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO', 'SWIFT_VERSION' => '3.2', 'DEFINES_MODULE' => 'YES' }
 
   s.resource_bundles = {
     'YTXDTNWBWeexContainerBusinessModule' => ['YTXDTNWBWeexContainerBusinessModule/Assets/**']
